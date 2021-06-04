@@ -1,0 +1,243 @@
+* {margin:0;padding:0px; vertical-align:middle;}
+#wrap{
+	width:0 auto;
+	margin:0 auto;
+	padding 0;
+}
+header {
+　　　margin-top:20px;
+}
+header #person{
+	position:absolute;
+	left:1700px;
+	top:50px;
+}
+header #recently{
+	position:absolute;
+	left:1800px;
+	top:50px;
+}
+header #shopping{
+	position:absolute;
+	left:1900px;
+	top:50px;
+}
+header #logo {  
+	margin-left:10px;
+	float:left;
+}
+header #head_link {
+	float:right;
+	font-size : 0.75em;
+}
+header #head_link ul {
+	list-style:none;
+}
+header #head_link li {
+	float:left;
+	padding:0 8px;
+	border-right:1px solid #999;
+	font-size:20px;
+}
+
+header #search{
+	float:none;
+	text-align:center;
+	margin:40px;
+}
+
+header #search .main_input{
+	float:center;
+	width: 700px;
+	height: 50px;
+	border: #336699 3px solid;
+	padding:0 5px;
+}
+header #search .btn1{
+	background-color:#369;
+	border:solid 1px #369;
+	color:#FFF;
+	height:55px;
+	width:80px;
+	margin-left:2px;	
+}
+header #head_link .no_line{border-right:none;}
+aside {
+	float:left;
+	width:205px;
+}
+nav{
+	margin:25px 0 0 10px;
+	font-size:0.8em;
+}
+nav ul li {padding:5px 10px; text-reansform: uppercase;}
+nav ul li h3{
+	border:1px solid #CCC;
+	border-radius:20px;
+	padding:5px 20px;
+	font-size: 14px;
+	text-reansform: capitalize;
+	background-color: #e5e5e5;
+	background-repeat: repeat-x;
+	background-position: top;
+}
+nav ul li ul li{
+	padding:0 0 0 20px;
+	line-height: 2em;
+}
+nav ul li ul{
+	margin: 10px 0 0 0;
+}
+nav #notice h2{
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 15px;
+	border: 1px solid grey;
+
+
+}
+nav #notice ul{
+	position: absolute;
+	width: 355px;
+	height: 125px;
+	border: 1px solid grey
+	z-index: 1;
+	display: block;
+	position: fixed;
+	padding: 10px;
+	width: 355px;
+}
+nav #notice ul li{
+	line-height: 27px;
+	font-size: 13px;
+}
+nav #notice ul li a{
+	float: left;
+}
+nav ul li a{display:block;}
+nav ul li a:hover {text-indent:15px;}
+aside #banner {margin: 10px 15px;}
+nav ul{list-style:none;}
+nav ul li{padding : 5px 10px; text-transform: uppercase;}
+body {
+	margin:0;
+	padding:0;
+	font-family: "Dotum", Arial,serif;
+	font-size: 1em;
+	color: #666;
+	background-color: #FFF;
+	background-image: url
+	background-repeat: repeat-x;
+	background-position: top;
+
+}
+article {
+	margin:50px;
+	padding:50px;
+}
+article #sports{
+	position:absolute;
+	left:400px;
+	top:200px;
+
+}
+article #book{
+	position:absolute;
+	left:800px;
+	top:200px;
+}
+article #elec{
+	position:absolute;
+	left:1200px;
+	top:200px;
+
+}
+article #fre{
+	position:absolute;
+	left:400px;
+	bottom:150px;
+	
+}
+article #cloth{
+	position:absolute;
+	left:770px;
+	bottom:120px;
+		
+}
+article #cook{
+	position:absolute;
+	left:1200px;
+	bottom:150px;
+		
+}
+article fieldset{
+	margin:10px;
+	font-size:34px;
+	position:absolute;
+	left:1570px;
+	top:200px;
+	border: 5px solid blue;
+
+}
+article fieldset #submit{
+	font-size:28px;
+	position:absolute;
+	left:160px;
+	top:40px;
+}
+article #detail{
+	width:450px;
+	font-size:35px;
+	color: red;
+	position:absolute;
+	left:1580px;
+	bottom:500px;
+	background-color : #ffdf3e;
+}
+article #popular1{
+	position:absolute;
+	left:1580px;
+	bottom:250px;
+}
+article #popular1 p{
+	font-size:30px;
+	color:red;
+	font-weight:bold;
+}
+article #popular1 li{
+	font-size:20px;
+}
+article #popular2{
+	position:absolute;
+	left:1800px;
+	bottom:250px;
+}
+article #popular2 li{
+	font-size:20px;
+}
+article #popular3{
+	position:absolute;
+	left:1580px;
+	bottom:50px;
+}
+article #popular3 li{
+	font-size:20px;
+}
+article #popular4{
+	position:absolute;
+	left:1800px;
+	bottom:50px;
+}
+article #popular4 li{
+	font-size:20px;
+}
+input[type="checkbox"]{
+  width: 20px;
+  height: 20px;
+}
+img {border:none;}
+a {text-decoration: none;color: #666;}
+a:hover {color: #F60;text-decoration: none;}
+.clear{clear:both;}

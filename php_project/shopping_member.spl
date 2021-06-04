@@ -1,0 +1,18 @@
+/*
+	num: 회원 번호(주 키, 자동 증가)
+	name: 회원 이름
+	id: 회원 아이디 
+	pw: 회원 비밀번호 
+	balance: 현재 보유 잔액 
+*/
+
+create table shopping_member
+(
+	num int not null auto_increment, 
+	name char(20) not null, 
+	id char(20) not null, 
+	pw char(20) not null, 
+	balance long not null, 
+	primary key(num)
+);
+
